@@ -17,7 +17,7 @@ namespace Web.Models
         public string Marque { get; set; }
         public string Kilometrage { get; set; }
         public string Matricule { get; set; }
-        public VehiclePays Pays { get; set; }
-        public VehicleCouleur Couleur { get; set; }
+       // public VehiclePays Pays { get; set; }
+        //public VehicleCouleur Couleur { get; set; }
     }
 }

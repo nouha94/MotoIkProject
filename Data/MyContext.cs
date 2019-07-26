@@ -27,6 +27,10 @@ namespace Data
         public DbSet<VehicleRequest> VehicleRequests { get; set; }
         public DbSet<Client>Clients { get; set; }
 
+      //  public System.Data.Entity.DbSet<Web.Models.RoleViewModel> RoleViewModels { get; set; }
+
+        //public System.Data.Entity.DbSet<Web.Models.RoleViewModel> RoleViewModels { get; set; }
+
 
         //   public System.Data.Entity.DbSet<Web.Models.VehicleModels> VehicleModels { get; set; }
     }
