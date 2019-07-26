@@ -1,0 +1,58 @@
+﻿@model Domain.Entities.VehicleRequest
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VehicleRequest</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Client.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameR)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kilometrage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kilometrage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Matricule)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Matricule)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
