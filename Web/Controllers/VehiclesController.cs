@@ -11,6 +11,8 @@ using Domain.Entities;
 
 namespace Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
+
     public class VehiclesController : Controller
     {
         private MyContext db = new MyContext();
